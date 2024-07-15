@@ -1,0 +1,15 @@
+#Summary{
+    text-align: center;
+    margin-top: 1%;
+}
+#button1{
+    color: white;
+  background-color:blue;
+  border-radius: 50px;
+  height: 40px;
+  width: 135px;
+  border: none;
+  margin-right: -2%;
+}
+
+
