@@ -1,0 +1,753 @@
+.podcastTitle{
+    background-image: url("https://dev.audpl.us/media/1a91c5da4266576e4287b8025d7e0588704b9264c38d8d866ed8dbc9/pNrUEY11f/odZyHY11q/PgdyHYO-cover-1920.jpeg");
+    height: 52vh;
+    width: 100%;
+    /* margin: 0;
+    padding: 0; */
+    background-size: cover;
+    top: 0;
+    position: fixed;
+    border-radius: 25px;
+}
+.podcast-title{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    /* margin-right: 40%; */
+}
+p{
+    font-size: 150%;
+    color: white;
+    margin-left: 15%;
+    margin-top: 5%;
+    text-align: justify;
+    text-align: left;
+}
+.mic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.episodes{
+    display: flex;
+    gap: 10%;
+    margin-top: 30%;
+    margin-left: 8%;
+    /* float: left;     */
+} 
+.play-button{
+    position: absolute;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    cursor: pointer; 
+    color: white;
+    font-size: 230%;
+    top: 64%;
+}
+.play-button2{
+    position: absolute;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    cursor: pointer; 
+    color: white;
+    font-size: 230%;
+    top: 75.5%;
+}
+.play-button3{
+    position: absolute;
+    right: 42%;
+    transform: translate(-50%, -50%);
+    cursor: pointer; 
+    color: white;
+    font-size: 230%;
+    top: 63.5%;
+}
+.play-button4{
+    position: absolute;
+    right: 42%;
+    transform: translate(-50%, -50%);
+    cursor: pointer; 
+    color: white;
+    font-size: 230%;
+    top: 75.5%;
+}
+figcaption{
+    font-size: 120%;
+    flex: 1;
+}
+figure{
+    display: flex;
+    gap: 3%;
+    align-items: center;
+}
+@media screen and (min-width: 280px) and (max-width: 350px) {
+    .podcastTitle{
+        background-image: url("https://dev.audpl.us/media/1a91c5da4266576e4287b8025d7e0588704b9264c38d8d866ed8dbc9/pNrUEY11f/odZyHY11q/PgdyHYO-cover-1920.jpeg");
+        height: 35vh;
+        width: 100%;
+        background-size: cover;
+        top: 0;
+        position: fixed;
+        border-radius: 25px;
+    }
+    
+    p{
+        font-size: 65%;
+        color: white;
+        margin-left: 5%;
+        text-align: justify;
+        text-align: left;
+    }
+    .podcast-title{
+        font-size: 125%; 
+        margin-top: 10%;
+       margin-right: 38%;
+    }
+    .episodes{
+        display: grid;
+        grid-gap: 0%;
+        margin-top: 80%;
+        margin-left: 8%;
+    } 
+    figcaption{
+        font-size: 60%;
+        flex: 1;
+    }
+    .mic{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .play-button{
+        position: absolute;
+        left: 31%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 130%;
+        top: 42%;
+    }
+    .play-button2{
+        position: absolute;
+        left: 31%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 130%;
+        top: 55%;
+    }
+    .play-button3{
+        position: absolute;
+        right: 61%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 130%;
+        top: 70%;
+    }
+    .play-button4{
+        position: absolute;
+        right: 61%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 130%;
+        top: 83%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 350px) {
+    .podcastTitle{
+        background-image: url("https://dev.audpl.us/media/1a91c5da4266576e4287b8025d7e0588704b9264c38d8d866ed8dbc9/pNrUEY11f/odZyHY11q/PgdyHYO-cover-1920.jpeg");
+        height: 35vh;
+        width: 100%;
+        background-size: cover;
+        top: 0;
+        position: fixed;
+        border-radius: 25px;
+    }
+    
+    p{
+        font-size: 65%;
+        color: white;
+        margin-left: 5%;
+        text-align: justify;
+        text-align: left;
+    }
+    .podcast-title{
+        font-size: 125%; 
+        margin-top: 10%;
+       margin-right: 38%;
+    }
+    .episodes{
+        display: grid;
+        grid-gap: 0%;
+        margin-top: 48%;
+        margin-left: 8%;
+    } 
+    figcaption{
+        font-size: 60%;
+        flex: 1;
+    }
+    .mic{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .play-button{
+        position: absolute;
+        left: 28%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 130%;
+        top: 41%;
+    }
+    .play-button2{
+        position: absolute;
+        left: 28%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 130%;
+        top: 56%;
+    }
+    .play-button3{
+        position: absolute;
+        right: 65%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 130%;
+        top: 74%;
+    }
+    .play-button4{
+        position: absolute;
+        right: 65%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 130%;
+        top: 90%;
+    }
+   
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 412px) {
+
+    .podcastTitle{
+        background-image: url("https://dev.audpl.us/media/1a91c5da4266576e4287b8025d7e0588704b9264c38d8d866ed8dbc9/pNrUEY11f/odZyHY11q/PgdyHYO-cover-1920.jpeg");
+        height: 30vh;
+        width: 100%;
+        background-size: cover;
+        top: 0;
+        position: fixed;
+        border-radius: 25px;
+    }
+    
+    p{
+        font-size: 65%;
+        color: white;
+        margin-left: 5%;
+        text-align: justify;
+        text-align: left;
+    }
+    .podcast-title{
+        font-size: 125%; 
+        margin-top: 10%;
+       margin-right: 38%;
+    }
+    .episodes{
+        display: grid;
+        grid-gap: 0%;
+        margin-top: 65%;
+        margin-left: 8%;
+    } 
+    figcaption{
+        font-size: 60%;
+        flex: 1;
+    }
+    .mic{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .play-button{
+        position: absolute;
+        left: 26%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 130%;
+        top: 43%;
+    }
+    .play-button2{
+        position: absolute;
+        left: 26%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 130%;
+        top: 54%;
+    }
+    .play-button3{
+        position: absolute;
+        right: 68%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 130%;
+        top: 67%;
+    }
+    .play-button4{
+        position: absolute;
+        right: 68%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 130%;
+        top: 77%;
+    }
+}
+
+
+@media screen and (min-width: 414px) and (max-width: 512px) {
+    .podcastTitle{
+        background-image: url("https://dev.audpl.us/media/1a91c5da4266576e4287b8025d7e0588704b9264c38d8d866ed8dbc9/pNrUEY11f/odZyHY11q/PgdyHYO-cover-1920.jpeg");
+        height: 35vh;
+        width: 100%;
+        background-size: cover;
+        top: 0;
+        position: fixed;
+        border-radius: 25px;
+    }
+    
+    p{
+        font-size: 65%;
+        color: white;
+        margin-left: 5%;
+        text-align: justify;
+        text-align: left;
+    }
+    .podcast-title{
+        font-size: 125%; 
+        margin-top: 10%;
+       margin-right: 38%;
+    }
+    .episodes{
+        display: grid;
+        grid-gap: 0%;
+        margin-top: 48%;
+        margin-left: 8%;
+    } 
+    figcaption{
+        font-size: 60%;
+        flex: 1;
+    }
+    .mic{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    
+}
+
+@media screen and (min-width: 540px) and (max-width: 590px) {
+    .podcastTitle{
+        background-image: url("https://dev.audpl.us/media/1a91c5da4266576e4287b8025d7e0588704b9264c38d8d866ed8dbc9/pNrUEY11f/odZyHY11q/PgdyHYO-cover-1920.jpeg");
+        height: 35vh;
+        width: 100%;
+        background-size: cover;
+        top: 0;
+        position: fixed;
+        border-radius: 25px;
+    }
+    
+    p{
+        font-size: 65%;
+        color: white;
+        margin-left: 5%;
+        text-align: justify;
+        text-align: left;
+    }
+    .podcast-title{
+        font-size: 125%; 
+        margin-top: 10%;
+       margin-right: 38%;
+    }
+    .episodes{
+        display: grid;
+        grid-gap: 0%;
+        margin-top: 48%;
+        margin-left: 8%;
+    } 
+    figcaption{
+        font-size: 60%;
+        flex: 1;
+    }
+    .mic{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 770px) {
+    .podcastTitle{
+        background-image: url("https://dev.audpl.us/media/1a91c5da4266576e4287b8025d7e0588704b9264c38d8d866ed8dbc9/pNrUEY11f/odZyHY11q/PgdyHYO-cover-1920.jpeg");
+        height: 30vh;
+        width: 100%;
+        background-size: cover;
+        top: 0;
+        position: fixed;
+        border-radius: 25px;
+    }
+    
+    p{
+        font-size: 125%;
+        color: white;
+        margin-left: 5%;
+        text-align: justify;
+        text-align: left;
+    }
+    .podcast-title{
+        font-size: 215%; 
+        margin-top: 10%;
+       margin-right: 55%;
+    }
+    .episodes{
+        display: flex;
+        grid-gap: 0%;
+        margin-top: 48%;
+        margin-left: 2%;
+    } 
+    figcaption{
+        font-size: 93%;
+        flex: 1;
+    }
+    .mic{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      
+    }
+    .play-button{
+        position: absolute;
+        left: 14%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 43%;
+    }
+    .play-button2{
+        position: absolute;
+        left: 14%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 57%;
+    }
+    .play-button3{
+        position: absolute;
+        right: 38%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 43%;
+    }
+    .play-button4{
+        position: absolute;
+        right: 38%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 55%;
+    }    
+    
+}
+
+@media screen and (min-width: 810px) and (max-width: 870px) {
+    .podcastTitle{
+        background-image: url("https://dev.audpl.us/media/1a91c5da4266576e4287b8025d7e0588704b9264c38d8d866ed8dbc9/pNrUEY11f/odZyHY11q/PgdyHYO-cover-1920.jpeg");
+        height: 30vh;
+        width: 100%;
+        background-size: cover;
+        top: 0;
+        position: fixed;
+        border-radius: 25px;
+    }
+    
+    p{
+        font-size: 125%;
+        color: white;
+        margin-left: 5%;
+        text-align: justify;
+        text-align: left;
+    }
+    .podcast-title{
+        font-size: 215%; 
+        margin-top: 10%;
+       margin-right: 55%;
+    }
+    .episodes{
+        display: flex;
+        grid-gap: 0%;
+        margin-top: 48%;
+        margin-left: 2%;
+    } 
+    figcaption{
+        font-size: 80%;
+        flex: 1;
+    }
+    .mic{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      
+    }
+    .play-button{
+        position: absolute;
+        left: 13%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 39%;
+    }
+    .play-button2{
+        position: absolute;
+        left: 13%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 49%;
+    }
+    .play-button3{
+        position: absolute;
+        right: 38%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 39%;
+    }
+    .play-button4{
+        position: absolute;
+        right: 38%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 49%;
+    }
+    
+}
+
+@media screen and (min-width: 871px) and (max-width: 920px) {
+    .podcastTitle{
+        background-image: url("https://dev.audpl.us/media/1a91c5da4266576e4287b8025d7e0588704b9264c38d8d866ed8dbc9/pNrUEY11f/odZyHY11q/PgdyHYO-cover-1920.jpeg");
+        height: 35vh;
+        width: 100%;
+        background-size: cover;
+        top: 0;
+        position: fixed;
+        border-radius: 25px;
+    }
+    
+    p{
+        font-size: 65%;
+        color: white;
+        margin-left: 5%;
+        text-align: justify;
+        text-align: left;
+    }
+    .podcast-title{
+        font-size: 125%; 
+        margin-top: 10%;
+       margin-right: 38%;
+    }
+    .episodes{
+        display: grid;
+        grid-gap: 0%;
+        margin-top: 48%;
+        margin-left: 8%;
+    } 
+    figcaption{
+        font-size: 60%;
+        flex: 1;
+    }
+    .mic{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1030px) {
+    .podcastTitle{
+        background-image: url("https://dev.audpl.us/media/1a91c5da4266576e4287b8025d7e0588704b9264c38d8d866ed8dbc9/pNrUEY11f/odZyHY11q/PgdyHYO-cover-1920.jpeg");
+        height: 55vh;
+        width: 100%;
+        background-size: cover;
+        top: 0;
+        position: fixed;
+        border-radius: 25px;
+    }
+    
+    p{
+        font-size: 125%;
+        color: white;
+        margin-left: 5%;
+        text-align: justify;
+        text-align: left;
+    }
+    .podcast-title{
+        font-size: 235%; 
+        margin-top: 5%;
+       margin-right: 38%;
+    }
+    .episodes{
+        display: flex;
+        grid-gap: 0%;
+        margin-top: 34%;
+        margin-left: 2%;
+    } 
+    figcaption{
+        font-size: 103%;
+        flex: 1;
+    }
+    .mic{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .play-button{
+        position: absolute;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 69%;
+    }
+    .play-button2{
+        position: absolute;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 88%;
+    }
+    .play-button3{
+        position: absolute;
+        right: 42%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 70%;
+    }
+    .play-button4{
+        position: absolute;
+        right: 42%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 89%;
+    }
+    
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1330px) {
+    .podcastTitle{
+        background-image: url("https://dev.audpl.us/media/1a91c5da4266576e4287b8025d7e0588704b9264c38d8d866ed8dbc9/pNrUEY11f/odZyHY11q/PgdyHYO-cover-1920.jpeg");
+        height: 55vh;
+        width: 100%;
+        background-size: cover;
+        top: 0;
+        position: fixed;
+        border-radius: 25px;
+    }
+    
+    p{
+        font-size: 125%;
+        color: white;
+        margin-left: 5%;
+        text-align: justify;
+        text-align: left;
+    }
+    .podcast-title{
+        font-size: 235%; 
+        margin-top: 5%;
+       margin-right: 38%;
+    }
+    .episodes{
+        display: flex;
+        grid-gap: 0%;
+        margin-top: 38%;
+        margin-left: 2%;
+    } 
+    figcaption{
+        font-size: 103%;
+        flex: 1;
+    }
+    .mic{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .play-button{
+        position: absolute;
+        left: 9%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 70%;
+    }
+    .play-button2{
+        position: absolute;
+        left: 9%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 85%;
+    }
+    .play-button3{
+        position: absolute;
+        right: 44%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 70%;
+    }
+    .play-button4{
+        position: absolute;
+        right: 44%;
+        transform: translate(-50%, -50%);
+        cursor: pointer; 
+        color: white;
+        font-size: 270%;
+        top: 84%;
+    }
+}
+
+
+
+
+
+
+
