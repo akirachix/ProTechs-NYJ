@@ -10,7 +10,7 @@ h2{
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 858px;
+    height: 820px;
 
 }
 button{
@@ -23,12 +23,12 @@ button{
 
 }
 
-@media (min-width: 0pxpx) and (max-width: 300px){
+@media (min-width: 0px) and (max-width: 300px){
     h2{
         font-size: 40px;
         color: white;
         text-align: center;
-        padding-top: 90px;
+        padding-top: 40px;
     
     }
     #music{
@@ -52,10 +52,10 @@ button{
 
 @media screen  and (min-width: 301px) and (max-width: 400px){
     h2{
-        font-size: 40px;
+        font-size: 4cqmax;
         color: white;
         text-align: center;
-        padding-top: 150px;
+        padding-top: 50px;
     
     }
     #music{
@@ -63,7 +63,8 @@ button{
         background-position: initial;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 900px;
+        height: 200px;
+        width: 550px;
         padding-bottom: 10px;
     }
     button{
@@ -118,6 +119,7 @@ button{
         background-repeat: no-repeat;
         background-size: cover;
         height: 900px;
+        width: 600px;
         padding-bottom: 10px;
     }
     button{
@@ -172,7 +174,7 @@ button{
         background-position: initial;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 858px;
+        height: 868px;
     
     }
     button{
@@ -189,7 +191,7 @@ button{
 
 @media screen  and (min-width: 280px) and (max-width: 653px){
     h2{
-        font-size: 66px;
+        font-size: 40px;
         color: white;
         text-align: center;
         padding-top: 20%;
@@ -200,17 +202,23 @@ button{
         background-position: initial;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 958px;
-        width: 1300px;
+        height: 458px;
+        width: 368px;
     
     }
     button{
         color: white;
         background-color: #3376BC;
         border-radius: 25px;
-        width: 18%;
-        height: 6%;
+        width: 29%;
+        height: 8%;
         border: none;
     
     }  
 }
+
+
+
+
+
+
