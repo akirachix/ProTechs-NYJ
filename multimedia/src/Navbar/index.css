@@ -39,14 +39,14 @@
     text-decoration: none;
     font-weight: bolder;
     font-size: 28px;
-    color: #243dbb;
+    color: #070707;
     margin-top: 22px;
     white-space: nowrap;
-    margin-left: 60%;
+    margin-left: 95%;
   }
   .items li a:hover{
     cursor: pointer;
-    color: #03213f;
+    color: #3a8bdb;
   }
   .navbar{
     display: flex;
@@ -107,7 +107,7 @@
       text-decoration: none;
       font-weight: bolder;
       font-size: 28px;
-      color: #243dbb;
+      color: #000000;
       margin-top: 22px;
       white-space: nowrap;
       margin-left: 30%;
@@ -154,10 +154,9 @@
     .links li {
       list-style-type: none;
       margin-bottom: 30px;
-      font-size: 22px;
-      margin-left: 23px;
-      margin-top: 35px;
-      padding-top: 40px;
+      font-size: 20px;
+      margin-left: 12px;
+      padding-top: 30px;
     }
     .links a {
       color: white;
@@ -181,10 +180,10 @@
       text-decoration: none;
       font-weight: bolder;
       font-size: 28px;
-      color: #243dbb;
+      color: #030303;
       margin-top: 22px;
       white-space: nowrap;
-      margin-left: 30%;
+      margin-left: 20%;
       
     } 
     .items li a:hover{
@@ -203,7 +202,7 @@
      .hamburger{
       display: block;
       color: #3a55a7;
-      margin-left: 74%;
+      margin-left: 49%;
      margin-top: 20px;
     }  
   } 
@@ -254,7 +253,7 @@
       text-decoration: none;
       font-weight: bolder;
       font-size: 28px;
-      color: #243dbb;
+      color: #050505;
       margin-top: 22px;
       white-space: nowrap;
       margin-left: 30%;
@@ -325,7 +324,7 @@
       text-decoration: none;
       font-weight: bolder;
       font-size: 28px;
-      color: #243dbb;
+      color: #000000;
       margin-top: 22px;
       white-space: nowrap;
       margin-left: 30%;
@@ -397,7 +396,7 @@
       text-decoration: none;
       font-weight: bolder;
       font-size: 28px;
-      color: #243dbb;
+      color: #000000;
       margin-top: 22px;
       white-space: nowrap;
       margin-left: 30%;
@@ -467,7 +466,7 @@
       text-decoration: none;
       font-weight: bolder;
       font-size: 28px;
-      color: #243dbb;
+      color: #050505;
       margin-top: 22px;
       white-space: nowrap;
       margin-left: 30%;
@@ -540,7 +539,7 @@
       text-decoration: none;
       font-weight: bolder;
       font-size: 28px;
-      color: #243dbb;
+      color: #050505;
       margin-top: 22px;
       white-space: nowrap;
       margin-left: 30%;
@@ -612,7 +611,7 @@
       text-decoration: none;
       font-weight: bolder;
       font-size: 34px;
-      color: #243dbb;
+      color: #000000;
       margin-top: 22px;
       white-space: nowrap;
       margin-left: 30%;
@@ -634,7 +633,7 @@
      .hamburger{
       display: block;
       color: #3a55a7;
-      margin-left: 95%;
+      margin-left: 55%;
      margin-top: 20px;
     }  
   } 
@@ -684,7 +683,7 @@
       text-decoration: none;
       font-weight: bolder;
       font-size: 28px;
-      color: #243dbb;
+      color: #080808;
       margin-top: 22px;
       white-space: nowrap;
       margin-left: 19%;
@@ -751,7 +750,7 @@
       text-decoration: none;
       font-weight: bolder;
       font-size: 28px;
-      color: #243dbb;
+      color: #020202;
       margin-top: 22px;
       white-space: nowrap;
       margin-left: 60%;
@@ -819,7 +818,7 @@
     text-decoration: none;
     font-weight: bolder;
     font-size: 28px;
-    color: #243dbb;
+    color: #000000;
     margin-top: 22px;
     white-space: nowrap;
     margin-left: 60%;
