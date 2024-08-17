@@ -21,12 +21,13 @@ const Blog =()=>{
         <p>be born a crime. Interracial relations were decriminalised when the immorality act was </p>
         <p>ammended in 1985. As a mised race person Noah was classified as a coloured in accordance</p>
         <p>to the apartheid system of racial classification. Noah was raised primarily by his mother</p>
-        <button id="button"><Link to="/Summary">Read More</Link></button>
+        <button id="button"><Link id="text" to="/Summary">Read More</Link></button>
         </div>
       </div>
     </div>
   )
   
 }
+
 
 export default Blog;

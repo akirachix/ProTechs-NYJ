@@ -3,13 +3,44 @@
     margin-top: 1%;
 }
 #button1{
-    color: white;
+   color: white;
   background-color:blue;
   border-radius: 50px;
   height: 40px;
   width: 135px;
   border: none;
   margin-right: -2%;
+  font-size: larger;
+  font-weight: 300;
+}
+#text{
+  color: antiquewhite;
 }
 
+
+@media screen and (min-width:270px) and (max-width:350px){
+  #Summary{
+    display: block;
+    margin-top: 1%;
+    font-size: large;
+}
+#button1{
+   color: white;
+  background-color:blue;
+  border-radius: 50px;
+  height: 40px;
+  width: 135px;
+  border: none;
+  margin-right: -2%;
+  font-size: larger;
+  font-weight: 300;
+}
+#text{
+  color: antiquewhite;
+}
+h1{
+  font-size: large;
+}
+
+}
 

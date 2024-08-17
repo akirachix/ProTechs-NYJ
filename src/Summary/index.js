@@ -34,7 +34,7 @@ const Summary = ()=>{
             <p>inequalitues manifest in the form of persistent poverty, limited access to quality eucation, and high unemployment rates  among the previously </p>
             <p>populations. Today, similar systemic issues contribute to economic disparities globally affecting marginalized communities' ability to climb to</p>
             <p>the socioeconomic ladder</p>
-            <button id="button1"><Link to="/Blog">Home</Link></button>
+            <button id="button1"><Link id='text' to="/Blog">Home</Link></button>
         </div>
         </div>
     
