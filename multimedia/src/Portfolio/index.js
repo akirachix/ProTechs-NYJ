@@ -11,13 +11,13 @@ const Portfolio = () =>{
             <h1>About Us</h1>
             <div id='all'>
             <div id='Images'>
-                <div>
+                <div className='individuals'>
                 <img src= "./Portfolio-images/Wangesha.jpg" alt='fridah' className='fridah'/>
                 <p>Agnes Wangesha</p>
                 <button><a href ={pdf1} target='"_blank' rel='noopener nonreferrer' className='profile' >View</a></button>
                 </div>
 
-                <div>
+                <div className='individuals'>
                 <img src= "./Portfolio-images/Karen.jpg" alt='fridah' className='fridah'/>
                 <div className='names'>
                 <p>KarenMaria Philip</p>
@@ -25,7 +25,7 @@ const Portfolio = () =>{
                 </div>
                 </div>
 
-                <div>
+                <div className='individuals'>
                 <img src= "./Portfolio-images/Kibaara.jpg" alt='fridah' className='fridah'/>
                 <p>Jane Kibaara</p>
                 <button><a href ={pdf3} target='"_blank' rel='noopener nonreferrer' className='profile' >View</a></button>
@@ -33,13 +33,13 @@ const Portfolio = () =>{
                 </div>
 
                 <div id='sets'>
-                <div>
+                <div className='individuals'>
                 <img src= "./Portfolio-images/Gladwell.jpg" alt='fridah' className='fridah'/>
                 <p>Gladwell Wanjiku</p>
                 <button><a href ={pdf4} target='"_blank' rel='noopener nonreferrer' className='profile' >View</a></button>
                 </div>
 
-                <div>
+                <div className='individuals'>
                 <img src= "./Portfolio-images/Fridah.jpg" alt='fridah' className='fridah'/>
                 <p>Fridah Wothaya</p>
                 <button><a href ={pdf5} target='"_blank' rel='noopener nonreferrer' className='profile' >View</a></button>

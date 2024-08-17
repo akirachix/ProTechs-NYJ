@@ -4,11 +4,11 @@ h1{
     font-size: 35px;
 }
 .fridah{
-    height: 250px;
+    height: 200px;
     border-radius: 50%;
 }
 p{
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 16%;
 }
 button{
@@ -21,7 +21,7 @@ button{
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
-    margin-left: 37%;
+    margin-left: 17%;
     font-weight: bold;
 }
 #Images{
